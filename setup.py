@@ -1,7 +1,7 @@
 from setuptools import setup
 
 setup(name='pydomainr',
-      version='1.0',
+      version='1.1',
       description='Python wrapper for the domai.nr API',
       url='http://github.com/itsnauman/PyDomainr',
       author='Nauman Ahmad',
