@@ -8,7 +8,7 @@ Installation:
 
 .. code:: python
 
-    pip install https://github.com/itsnauman/PyDomainr/archive/1.0.tar.gz
+    pip install pydomainr
 
 Usage:
 ~~~~~~
