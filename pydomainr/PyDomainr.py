@@ -39,7 +39,7 @@ class PyDomainr(object):
         if self.available == 'taken':
             return False
         elif self.available == 'available':
-            return False
+            return True
         else:
             #Other return types are tld or maybe
             return self.available
