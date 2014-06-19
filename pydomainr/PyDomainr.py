@@ -8,8 +8,8 @@ class PyDomainr(object):
         Prepare the API urls
         """
         self.DOMAIN = domain
-        self.SEARCH = "https://domai.nr/api/json/search?q=" + self.DOMAIN
-        self.INFO = "https://domai.nr/api/json/info?q=" + self.DOMAIN
+        self.SEARCH = "https://domai.nr/api/json/search?client_id=python_itsnauman&q=" + self.DOMAIN
+        self.INFO = "https://domai.nr/api/json/info?client_id=python_itsnauman&q=" + self.DOMAIN
 
     def _api_search(self):
         """
